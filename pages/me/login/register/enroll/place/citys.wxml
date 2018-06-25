@@ -1,0 +1,3 @@
+<view  class='chengshi' wx:for="{{citys}}" data-index="{{index}}" bindtap='getcitys' id='{{item.cityId}}'>
+   <text>{{item.cityName}}</text>
+</view>

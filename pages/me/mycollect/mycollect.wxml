@@ -1,0 +1,28 @@
+<view class="body">
+  <view class="nav">
+    <view class="{{selected?'green':'default'}}" bindtap="selected">问答</view>
+    <view class="{{selected1?'green':'default'}}" bindtap="selected1">交流</view>
+    <view class="{{selected2?'green':'default'}}" bindtap="selected2">资讯</view>
+    <view class="{{selected3?'green':'default'}}" bindtap="selected3">视频</view>
+  </view>
+  <view class="{{selected?'show':'hidden'}}">
+    <view class='pic'>
+    <image src='../../../src/images/myanswer.jpg'></image>
+  </view>
+  </view>
+  <view class="{{selected1?'show':'hidden'}}">
+    <view class='pic'>
+    <image src='../../../src/images/myanswer.jpg'></image>
+  </view>
+  </view>
+  <view class="{{selected2?'show':'hidden'}}">
+    <view class='pic'>
+    <image src='../../../src/images/myanswer.jpg'></image>
+  </view>
+  </view>
+  <view class="{{selected3?'show':'hidden'}}">
+    <view class='pic'>
+    <image src='../../../src/images/myanswer.jpg'></image>
+  </view>
+  </view>
+</view>

@@ -1,0 +1,49 @@
+  <view class='whole' style='background:url("http://p7f2tmcme.bkt.clouddn.com/bg_login.jpg");-webkit-background-size:cover;'>
+  <view class='photo'>
+    <view style='position: relative;'>
+      <image src='../../../src/images/icon_login.png' class='touxiang'></image>
+    </view>
+  </view>
+
+  <view class='user'>
+    <view style='display:flex;  border-bottom: solid 1px white;'>
+      <image src='../../../src/images/icon_user.png'class="tb"></image>
+      <input type='text'  class="xx"  bindinput='phone'  placeholder-class="phcolor" placeholder='请填写用户手机号'>
+      </input>
+    </view>
+  </view>
+  <view class='password'>
+    <view style='display:flex; border-bottom: solid 1px white;'>
+      <image src='../../../src/images/icon_password.png'class="tb"></image>
+      <input type='text' class='mm' bindinput='password'  placeholder-class="phcolor" placeholder='请填写密码'>
+      </input>
+    </view>
+  </view>
+  <view style='display:flex;flex-direction:column;font-size:26rpx;color:white;margin-left:63rpx;margin-top:20rpx'>
+    <text>点击“登录”即表示您同意</text>
+    <text style='text-decoration:underline'>《农技耘App免责声明》</text>
+  </view>
+
+  <view>
+    <button formType="login" bindtap='login' class="login_btn" id="login">登录</button>
+  </view>
+  <view style='display:flex;flex-direction: row;margin-top:30rpx;color:white;font-size:30rpx;margin-left:62rpx'>
+    <view style='line-height:90rpx;margin-left:10rpx'>
+     <text class="forget" bindtap='forget'>忘记密码？</text>
+      <text class="zh">还没有账号？</text>
+    </view>
+<view bindtap='rgt'>
+    <button style='background:#C6EEBE;line-height:90rpx' formType="register" class='btn_rgt'>现在注册</button>
+  </view>
+  </view>
+
+  <view style='display:flex;flex-direction: row;margin-left:70rpx;color:white;margin-top:100rpx'>
+    <view style='border-bottom:solid 1px white;width: 35%;'></view>
+    <text class='quick'>快速登陆</text>
+    <view style='border-bottom:solid 1px white;width: 35%;'></view>
+  </view>
+  <view class='qq'>
+    <image src='../../../src/images/btn_qq.png'></image>
+    <image src='../../../src/images/btn_wx.png'></image>
+  </view>
+</view>

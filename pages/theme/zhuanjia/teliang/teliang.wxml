@@ -1,0 +1,62 @@
+<view class='top'>
+<text class='txt1'>首席专家</text>
+</view>
+<view class='shouxi'>
+<view class='for-shouxi' wx:for='{{shouxi}}'wx:key='this'>
+<view class='photo1'>
+<image class='head' src='{{item.head}}'></image>
+<view class='photo2'>
+<text class='name'>{{item.name}}</text>
+<text class='team'>{{item.team}}</text>
+</view>
+<view class='icon'>
+<text class='left'>{{item.left}}</text>
+</view>
+<view class='icon'>
+<text class='right'>{{item.right}}</text>
+</view>
+</view>
+</view>
+</view>
+
+<view class='top'>
+<text class='txt2'>岗位专家</text>
+</view>
+<view class='gangwei'>
+<view class='for-gangwei' wx:for='{{gangwei}}'wx:key='this'>
+<view class='photo1'>
+<image class='head' src='{{item.head}}'></image>
+<view class='photo2'>
+<text class='name'>{{item.name}}</text>
+<text class='team'>{{item.team}}</text>
+</view>
+<view class='icon'>
+<text class='left'>{{item.left}}</text>
+</view>
+<view class='icon'>
+<text class='right'>{{item.right}}</text>
+</view>
+</view>
+</view>
+</view>
+
+<view class='top'>
+<text class='txt3'>基地主任</text>
+</view>
+<view class='jidi'>
+<view class='for-jidi' wx:for='{{jidi}}'wx:key='this'>
+<view class='photo1'>
+<image class='head' src='{{item.head}}'></image>
+<view class='photo2'>
+<text class='name'>{{item.name}}</text>
+<text class='team'>{{item.team}}</text>
+</view>
+<view class='icon'>
+<text class='left'>{{item.left}}</text>
+</view>
+<view class='icon'>
+<text class='right'>{{item.right}}</text>
+</view>
+</view>
+</view>
+</view>

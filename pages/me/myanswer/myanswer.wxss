@@ -1,0 +1,32 @@
+.quest{
+  border-bottom: 1rpx solid gray;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+}
+.dis_pic image{
+  width: 55rpx;
+  height: 55rpx;
+  margin-top: 60rpx;
+  margin-left: 20rpx;
+
+}
+.dis_name{
+  margin-left: 95rpx;
+  font-size: 27rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: -65rpx;
+  color: grey;
+}
+.dis_address{
+  margin-left: 95rpx;
+  font-size: 27rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rpx;
+  color: grey;
+}
+.answer{
+  margin-left: 70rpx;
+  color: grey;
+}

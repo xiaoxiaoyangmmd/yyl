@@ -1,0 +1,187 @@
+.nav{
+  width:100%;
+  height:100rpx;
+  display:flex;
+  flex-direction:row;
+}
+.default{
+  line-height:100rpx;
+  text-align:center;
+  flex:1;
+  color:#AAAAAA;
+  font-size:38rpx;
+}
+.green{
+  line-height:100rpx;
+  text-align:center;
+  color:green;
+  flex:1;
+  border-bottom: green 1rpx solid;
+  font-weight:bold;
+  font-size:38rpx;
+}
+.show{
+  display:block;
+}
+.hidden{
+  display:none;
+}
+.head{
+  background: #00CD00;
+  display: flex;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+.sousuo{
+  background: white;
+  margin-left: 10rpx;
+  width: 75%;
+  flex-direction: row;
+}
+
+.head image{
+  width: 40rpx;
+  height: 40rpx;
+  flex-direction: row;
+  margin-left:48rpx;
+  margin-top: 4rpx;
+}
+.headline{
+  background: white;
+  width: 100%;
+  height: 200rpx;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.headline image{
+  width: 260rpx;
+  height: 160rpx;
+
+}
+.headline-list{
+  width: 430rpx;
+  height: 160rpx;
+  margin-left: 5rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.headline-title{
+  color: #000000;
+  flex: 1;
+  text-align: center;
+}
+.headline-time{
+  width: 100%;
+  height: 40rpx;
+  color: #BFBFBF;
+  font-size: 22rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dis_pic image{
+  width: 55rpx;
+  height: 55rpx;
+  margin-top: 60rpx;
+  margin-left: 20rpx;
+
+}
+.dis_name{
+  margin-left: 95rpx;
+  font-size: 27rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: -65rpx;
+  color: grey;
+}
+.dis_address{
+  margin-left: 95rpx;
+  font-size: 27rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rpx;
+  color: grey;
+}
+.dis_btn{
+  background-color: #00CD00;
+  color: white;
+  margin-right: 20rpx;
+}
+.dis_tx{
+  border-bottom: 1px solid grey;
+}
+.dis_tx image{
+ width: 230rpx;
+height: 185rpx;
+}
+.dis_dz{
+  margin-left: 40rpx;
+  font-size: 27rpx;
+  color: grey;
+}
+.dis_dc{
+  font-size: 27rpx;
+  color: grey;
+}
+.dianzan{
+  margin-left: 250rpx;
+}
+.pinglun{
+  margin-left: 50rpx;
+}
+.quest_btn{
+  background-color:#00EC00; 
+  width: 90%;
+  margin-top: 20rpx;
+  text-align: center;
+  color: white;
+}
+.quest_pic image{
+  width: 55rpx;
+  height: 55rpx;
+  margin-top: 60rpx;
+  margin-left: 20rpx;
+
+}
+.quest_name{
+  color: gray;
+  margin-left: 95rpx;
+  font-size: 27rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: -65rpx;
+}
+.quest_address{
+  color: gray;
+  margin-left: 95rpx;
+  font-size: 27rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rpx;
+}
+
+.quest_dz{
+  margin-top: 10rpx;
+  font-size: 27rpx;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.quest_tp image{
+  height: 160rpx;
+  width: 225rpx
+}
+.quest_time{
+  margin-left: 10rpx;
+  font-size: 27rpx;
+  color: gray;
+}
+.quest_as{
+  margin-left: 455rpx;
+  font-size: 27rpx;
+  color: gray;
+}

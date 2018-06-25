@@ -1,0 +1,18 @@
+.ka{
+  flex-direction: row;
+  display:flex;
+  background: white;
+}
+.tp{ 
+  display: flex;
+  flex-direction: row;
+  height: 180rpx;
+  width: 380rpx;
+}
+.icon-left{
+  border-bottom: solid 1px gainsboro;
+}
+.icon-right{
+  border-bottom: solid 1px gainsboro;
+  border-left: solid 1px gainsboro;
+}

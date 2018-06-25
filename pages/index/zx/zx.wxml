@@ -1,0 +1,56 @@
+<view>
+<view style='background:white; border-bottom: 1px solid lightgray;margin-top:15rpx;'>
+<text class='kjdt'>科教动态</text>
+<text class='more'>更多>></text>
+</view>
+ <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-31</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text> *【聚焦】江苏麦子水稻成熟后的...</text>
+        </view>
+      </view>
+    </view>
+     <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-31</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text> *【聚焦】江苏麦子水稻成熟后的...</text>
+        </view>
+      </view>
+    </view>
+     <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-31</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text> *【聚焦】江苏麦子水稻成熟后的...</text>
+        </view>
+      </view>
+    </view>
+
+<view class='zt'>
+<text>专题列表</text>
+</view>
+<view class='pic'>
+<image src='../../../src/images/aaa.jpg'></image>
+</view>
+<view class='pic'>
+<image src='../../../src/images/bbb.jpg'></image>
+</view>
+<view class='pic'>
+<image src='../../../src/images/ccc.jpg'></image>
+</view>
+<view class='pic'>
+<image src='../../../src/images/aaa.jpg'></image>
+</view>
+
+</view>

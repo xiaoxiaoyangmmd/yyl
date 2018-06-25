@@ -1,0 +1,101 @@
+page{
+  background-color:#E8E8E8;
+}
+.clearfix::before,
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.top{
+  background-color: #E8E8E8;
+}
+.address{
+   width: 33%;
+   height: 200rpx;
+   float: left;
+   text-align: center;
+}
+.t1{
+  margin-top: 25rpx;
+  margin-left: -68rpx;
+  font-size: 40rpx;
+}
+.t2{
+  margin-top:4rpx;
+  margin-left:24rpx;
+  font-size: 31rpx;
+  color:#AAAAAA;
+}
+.t3{
+  margin-top: 3rpx;
+  margin-left: -32rpx;
+  font-size: 31rpx;
+  color:#AAAAAA;
+}
+.temperature{
+  width: 33%;
+  height: 200rpx;
+  float: left;
+  text-align: center;
+}
+.temperature .t4{
+  margin-top: 30rpx;
+  font-size: 63rpx;
+  font-weight: bold;
+}
+.temperature .t5{
+  font-size: 33rpx;
+  color: #AAAAAA;
+}
+.weath{
+   width: 33%;
+   height: 200rpx;
+   float: left;
+   text-align: center;
+}
+.btn1{
+  height: 86rpx;
+  width: 94rpx;
+  margin-top: 15rpx;
+}
+.txt1{
+  display: flex;
+  width: auto;
+  margin-top: 8rpx;
+  margin-left:89rpx;
+  font-size: 35rpx;
+}
+.future-weather{
+  background-color: white;
+  border-bottom: 1px solid gainsboro;
+}
+.future-date{
+   width: 33%;
+   height: 200rpx;
+   float: left;
+   text-align: center;
+}
+.t6{
+  margin-top: 50rpx;
+  margin-left: -70rpx;
+  font-size: 40rpx;
+}
+.txt{
+  display: flex;
+  width: auto;
+  margin-top: 8rpx;
+  margin-left:64rpx;
+  font-size: 30rpx;
+  color: #AAAAAA;
+}
+.centigrade{
+  width: 33%;
+  height: 200rpx;
+  float: left;
+  text-align: center;
+}
+.centigrade .t7{
+  margin-top:58rpx;
+  font-size:38rpx;
+}

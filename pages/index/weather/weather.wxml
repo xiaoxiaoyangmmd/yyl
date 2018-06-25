@@ -1,0 +1,28 @@
+<view class='top clearfix'>
+<view class='address clearfix'>
+     <view class='t1'><text>南京</text></view>
+     <view class='t2'><text>2018-06-09</text></view>
+     <view class='t3'><text>13:30:00</text></view>
+   </view>
+   <view class='temperature'>
+     <view class='t4'><text>100℃</text></view>
+     <view class='t5'><text>东风7级</text></view>
+   </view>
+   <view class='weath'>
+     <image src='../../../src/images/weather1.png' class='btn1'></image>
+     <text class='txt1'>暴雨</text>
+   </view>
+</view>
+<view class='future-weather clearfix' wx:for="{{fuwe}}">
+   <view class='future-date'>
+     <view class='t6'><text class='fuar'>{{item.fuadr}}</text></view>
+     <view class='t2'><text class='fuda'>{{item.fuda}}</text></view>
+   </view>
+   <view class='weath'>
+       <image src='{{item.btn1}}' class='btn1'></image>
+     <text class='txt'>{{item.txt}}</text>
+   </view>
+   <view class='centigrade'>
+     <view class='t7'><text class='fuce'>{{item.fuce}}</text></view>
+   </view>
+</view>

@@ -1,0 +1,19 @@
+ <view class='custom'>
+        <text class='txt'>清理缓存</text> 
+        <text class='num'>4.14MB</text>
+   </view>
+
+   <view class='custom'>
+        <text class='txt'>版本更新</text> 
+        <text class='num'>V1.5.0</text>
+   </view>
+
+   <view class='custom'>
+        <text class='txt'>关于</text> 
+   </view>
+
+
+
+<view class='btn'>
+  <button id='btn1'>退出</button>
+</view>

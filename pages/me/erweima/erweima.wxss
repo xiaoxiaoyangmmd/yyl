@@ -1,0 +1,6 @@
+.pic image{
+  height: 350rpx;
+  width: 350rpx;
+  margin-top: 350rpx;
+  margin-left: 210rpx;
+}

@@ -1,0 +1,44 @@
+.ka{
+  flex-direction: row;
+  display:flex;
+  background: white;
+}
+.tp{ 
+  display: flex;
+  flex-direction: row;
+  height: 120rpx;
+  width: 120rpx;
+  margin-left: 133rpx;
+
+}
+.kb{
+  flex-direction: row;
+  display:flex;
+  background: white;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  color: grey;
+  font-size: 35rpx;
+  margin-top: 25rpx;
+}
+.icon-left{
+  width:50% ;
+  border-bottom: solid 1px gainsboro;
+  padding:  30rpx 0 30rpx 0;
+}
+.icon-right{
+  width:50% ;
+  border-bottom: solid 1px gainsboro;
+  border-left: solid 1px gainsboro;
+  padding:  30rpx 0 30rpx 0;
+}
+.icon-left1{
+  width:50% ;
+  border-bottom: solid 1px gainsboro;
+  border-right: solid 1px gainsboro;
+  padding:  30rpx 0 30rpx 0;
+  background: white;
+}
+

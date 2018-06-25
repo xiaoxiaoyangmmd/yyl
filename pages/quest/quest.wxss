@@ -1,0 +1,52 @@
+.quest_btn{
+  background-color:#00EC00; 
+  width: 90%;
+  margin-top: 20rpx;
+  text-align: center;
+  color: white;
+}
+.quest_pic image{
+  width: 55rpx;
+  height: 55rpx;
+  margin-top: 60rpx;
+  margin-left: 20rpx;
+
+}
+.quest_name{
+  color: gray;
+  margin-left: 95rpx;
+  font-size: 27rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: -65rpx;
+}
+.quest_address{
+  color: gray;
+  margin-left: 95rpx;
+  font-size: 27rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rpx;
+}
+
+.quest_dz{
+  margin-top: 10rpx;
+  font-size: 27rpx;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.quest_tp image{
+  height: 160rpx;
+  width: 225rpx
+}
+.quest_time{
+  margin-left: 10rpx;
+  font-size: 27rpx;
+  color: gray;
+}
+.quest_as{
+  margin-left: 455rpx;
+  font-size: 27rpx;
+  color: gray;
+}

@@ -1,0 +1,294 @@
+.window{
+  width:100%;  
+  height:100%; 
+}
+.login{
+  height: 192rpx;
+  background-color: white;
+}
+#touxiang{
+  margin-left:35rpx;
+  margin-top: 35rpx;
+  width: 113rpx;
+  height: 122rpx;
+  float: left;
+}
+#headtext{
+  display: flex;
+  margin-left: 50rpx;
+  margin-top: 70rpx;
+  float: left;
+}
+.shop{
+  background-color: white;
+  height: 200rpx;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.qiangdao{
+   width: 32%;
+   height: 200rpx;
+   float: left;
+   text-align: center;
+}
+#btn1{
+   height: 50rpx;
+  width: 50rpx;
+  margin-top: 30rpx;
+}
+#txt1{
+  display: flex;
+  width: auto;
+  margin-top: 32rpx;
+  margin-left:40rpx;
+}
+.sorce{
+  width: 32%;
+  height: 200rpx;
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+#btn2{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 30rpx;
+}
+#txt2{
+  display: flex;
+  width: auto;
+  margin-top: 32rpx;
+  margin-left:71rpx;
+}
+.shoping{
+  width: 32%;
+  height: 200rpx;
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+#btn3{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 30rpx;
+}
+#txt3{
+  display: flex;
+  width: auto;
+  margin-top: 32rpx;
+  margin-left:40rpx;
+}
+.me{
+  background-color: white;
+  height: 200rpx;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.quest{
+   width: 32%;
+   height: 200rpx;
+   float: left;
+   text-align: center;
+}
+#mebtn1{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top:30rpx ;
+}
+#metxt1{
+  display: flex;
+  margin-left:40rpx;
+  margin-top: 32rpx;
+}
+.answer{
+  width: 32%;
+  height: 200rpx;
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+#mebtn2{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 30rpx;
+}
+#metxt2{
+  display: flex;
+  width: auto;
+  margin-top: 32rpx;
+  margin-left:40rpx;
+}
+.chat{
+  width: 32%;
+  height: 200rpx;
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+#mebtn3{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 30rpx;
+}
+#metxt3{
+  display: flex;
+  width: auto;
+  margin-top: 32rpx;
+  margin-left:40rpx;
+}
+.my{
+  background-color: white;
+  height: 200rpx;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.collect{
+   width: 32%;
+   height: 200rpx;
+   float: left;
+   text-align: center;
+}
+#mybtn1{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top:30rpx ;
+}
+#mytxt1{
+  display: flex;
+  margin-left:40rpx;
+  margin-top: 32rpx;
+}
+.attent{
+  width: 32%;
+  height: 200rpx;
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+#mybtn2{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 30rpx;
+}
+#mytxt2{
+  display: flex;
+  width: auto;
+  margin-top: 32rpx;
+  margin-left:40rpx;
+}
+.gongqiu{
+  width: 32%;
+  height: 200rpx;
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+#mybtn3{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 30rpx;
+}
+#mytxt3{
+  display: flex;
+  width: auto;
+  margin-top: 32rpx;
+  margin-left:40rpx;
+}
+.mine{
+  background-color: white;
+  height: 200rpx;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.peixun{
+   width: 32%;
+   height: 200rpx;
+   float: left;
+   text-align: center;
+}
+#minebtn1{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top:30rpx ;
+}
+#minetxt1{
+  display: flex;
+  margin-left:40rpx;
+  margin-top: 32rpx;
+}
+.ewm{
+  width: 32%;
+  height: 200rpx;
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+#minebtn2{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 30rpx;
+}
+#minetxt2{
+  display: flex;
+  width: auto;
+  margin-top: 32rpx;
+  margin-left:40rpx;
+}
+.last{
+  background-color: white;
+  height: 200rpx;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.install{
+   width: 32%;
+   height: 200rpx;
+   float: left;
+   text-align: center;
+}
+#lastbtn1{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top:30rpx ;
+}
+#lasttxt1{
+  display: flex;
+  margin-left:40rpx;
+  margin-top: 32rpx;
+}
+.advice{
+  width: 32%;
+  height: 200rpx;
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+#lastbtn2{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 30rpx;
+}
+#lasttxt2{
+  display: flex;
+  width: auto;
+  margin-top: 32rpx;
+  margin-left:40rpx;
+}
+.share{
+  width: 32%;
+  height: 200rpx;
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+#lastbtn3{
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 30rpx;
+}
+#lasttxt3{
+  display: flex;
+  width: auto;
+  margin-top: 32rpx;
+  margin-left:40rpx;
+}

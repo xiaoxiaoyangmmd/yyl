@@ -1,0 +1,10 @@
+.qu{
+  width: 100%;
+  height: 120rpx;
+  background: white;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  padding-left: 40rpx;
+  font-size: 28rpx;
+}

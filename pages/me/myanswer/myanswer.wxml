@@ -1,0 +1,13 @@
+<view>
+<view class='quest'>
+<text>秧盘里小秧发霉是什么原因？</text>
+</view>
+<view class='dis_pic'>
+<image src='../../../src/images/btn_me_normal.png'></image>
+<text class='dis_name'>哈哈哈</text>
+<text class='dis_address'>2018-6-10</text>
+</view>
+<view class='answer'>
+<text>不懂！！！！！！！！！！！！</text>
+</view>
+</view>

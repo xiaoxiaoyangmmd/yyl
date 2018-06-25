@@ -1,0 +1,6 @@
+<view style='display:flex;background:#00CD00;'>
+<view class='gn'>
+<image src='../../../../src/images/btn_collection_normal.png'></image>
+<image src='../../../../src/images/btn_share_normal.png'></image>
+</view>
+</view>

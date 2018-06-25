@@ -1,0 +1,24 @@
+<view style='background-color:#F0F0F0;  width: 100%;height: 100%;position: absolute;'> 
+
+   <view style='background-color:white' class='wb'>
+  <input class='wneben'></input>
+  </view>
+
+   <view style='background-color:white' class='ad'>
+  <text class='address'>选择地址</text>
+  </view>
+
+  <view>
+  <text>上传的图片或15秒微视频(最多九张)</text>
+  <text>发布的信息可在列表中长按删除或撤销</text>
+  </view>
+
+  <view class='sc'>
+  <image src='../../../src/images/222.png'></image>
+  <image src='../../../src/images/111.png'></image>
+  </view>
+
+  <view>
+  <button form-type='quest' class='quest_btn' bindtap='quest'>提交</button>
+   </view>
+</view>

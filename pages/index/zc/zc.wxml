@@ -1,0 +1,41 @@
+<view>
+  <view class="section__title"></view>
+  <view class="flex-wrp" style="height: 110px;flex-direction:column;">
+    <view class="it">
+    <image src='../../../src/images/aaa.jpg'></image>
+    <text class='text' catchtap='tt'>{{title1}}</text>
+    </view>
+    <view class='bt'>
+    <text class='time'>2018-05-09</text>
+    <text class='nub'>阅读数:1248</text>
+    </view>
+    </view>
+</view>
+
+<view>
+  <view class="section__title"></view>
+  <view class="flex-wrp" style="height: 110px;flex-direction:column;">
+    <view class="it">
+    <image src='../../../src/images/bbb.jpg'></image>
+    <text class='text' catchtap='tt'>{{title1}}</text>
+    </view>
+    <view class='bt'>
+    <text class='time'>2018-05-08</text>
+    <text class='nub'>阅读数:1248</text>
+    </view>
+    </view>
+</view>
+
+<view>
+  <view class="section__title"></view>
+  <view class="flex-wrp" style="height: 110px;flex-direction:column;">
+    <view class="it">
+    <image src='../../../src/images/ccc.jpg'></image>
+    <text class='text' catchtap='tt'>{{title1}}</text>
+    </view>
+    <view class='bt'>
+    <text class='time'>2018-05-07</text>
+    <text class='nub'>阅读数:1248</text>
+    </view>
+    </view>
+</view>

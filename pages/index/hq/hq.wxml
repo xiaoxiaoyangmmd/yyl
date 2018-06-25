@@ -1,0 +1,118 @@
+<view class="body">
+<view class='tt'>
+<image src='../../../src/images/nykj20.jpg'></image>
+<text class='title'>启东召开全国人大代表</text>
+<text class='xq'>详情></text>
+</view>
+  <view class="nav">
+    <view class="{{selected?'green':'default'}}" bindtap="selected">行情价格</view>
+    <view class="{{selected1?'green':'default'}}" bindtap="selected1">市场聚焦</view>
+  </view>
+  <view class="{{selected?'show':'hidden'}}">
+   <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-06-31</text>
+          <text>阅读数量：55</text>
+        </view>
+        <view class='headline-title'>
+          <text> * 6月8号粮食各地报价</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-06-31</text>
+          <text>阅读数量：185</text>
+        </view>
+        <view class='headline-title'>
+          <text> * 6月1号甘蔗各地报价</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-06-31</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text> * 6月8号各地龙虾报价</text>
+        </view>
+      </view>
+    </view>
+    <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-08-31</text>
+          <text>阅读数量：55</text>
+        </view>
+        <view class='headline-title'>
+          <text> * 6月4号恐龙各地报价</text>
+        </view>
+      </view>
+    </view>
+    <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-1</text>
+          <text>阅读数量：55</text>
+        </view>
+        <view class='headline-title'>
+          <text> * 6月8号各地粮食报价</text>
+        </view>
+      </view>
+    </view>
+    <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-31</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text> * 6月9号各地蔬菜报价</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  
+  <view class="{{selected1?'show':'hidden'}}">
+  <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-31</text>
+          <text>阅读数量：55</text>
+        </view>
+        <view class='headline-title'>
+          <text> *【调查】龙虾急速讲讲 江苏粮食部门托市...</text>
+        </view>
+      </view>
+    </view>
+    <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-31</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text> *【关注】农场规模变大...</text>
+        </view>
+      </view>
+    </view>
+    <view class='headline'>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-31</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text> *【产业观察】2017年全国龙虾养殖户...</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

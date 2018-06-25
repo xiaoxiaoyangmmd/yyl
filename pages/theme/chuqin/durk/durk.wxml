@@ -1,0 +1,9 @@
+<view class='for-pig' wx:for="{{pig}}">
+<image class='tp' src='{{item.tp}}'></image>
+
+<view class='text'>
+<text class='name' decode='{{true}}'>{{item.name}}</text>
+<text class='date'  decode='{{true}}'>{{item.date}}</text>
+<text class='read'  decode='{{true}}'>{{item.read}}</text>
+</view>
+</view>

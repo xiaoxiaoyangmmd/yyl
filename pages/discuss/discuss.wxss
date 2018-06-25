@@ -1,0 +1,44 @@
+.dis_pic image{
+  width: 55rpx;
+  height: 55rpx;
+  margin-top: 60rpx;
+  margin-left: 20rpx;
+
+}
+.dis_name{
+  margin-left: 95rpx;
+  font-size: 27rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: -65rpx;
+  color: grey;
+}
+.dis_address{
+  margin-left: 95rpx;
+  font-size: 27rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rpx;
+  color: grey;
+}
+.dis_btn{
+  background-color: #00CD00;
+  color: white;
+  margin-right: 20rpx;
+}
+.dis_tx{
+  border-bottom: 1px solid grey;
+}
+.dis_tx image{
+ width: 230rpx;
+height: 185rpx;
+}
+.dis_dz{
+  margin-left: 40rpx;
+  font-size: 27rpx;
+  color: grey;
+}
+.dis_dc{
+  font-size: 27rpx;
+  color: grey;
+}

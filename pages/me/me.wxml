@@ -1,0 +1,88 @@
+<view class='window' style='background-color: #E8E8E8'>
+<!--登录区域-->
+<navigator url='login/login'>
+<view class='login' hidden='{{login1}}'>
+    <image src='../../src/images/icon_default_head.png' id='touxiang'></image> 
+    <text id='headtext' catchtap='login'>{{denglu}}</text>
+</view>
+</navigator>
+
+<navigator url='user/user'>
+  <view class='login' hidden='{{login2}}'>
+  <image src='../../src/images/icon_default_head.png' id='touxiang'></image>
+  <text id='headtext'>111</text>
+  </view>
+</navigator>
+<!--签到，积分，商城-->
+<view class='shop'>
+    <view class='qiangdao'>
+       <image src='../../src/images/icon_personal_04.png' id='btn1'></image>
+       <text id='txt1'>已签到0天</text>
+    </view>
+    <view class='sorce'>
+       <image src='../../src/images/icon_personal_02.png' id='btn2'></image>
+       <text id='txt2'>0积分</text>
+    </view>
+    <view class='shoping'>
+       <image src='../../src/images/icon_personal_03.png' id='btn3'></image>
+       <text id='txt3'>积分商城</text>
+    </view>
+</view>
+<!--我的提问，我的回答，我的交流-->
+<view class='me'>
+    <view class='quest'>
+       <image src='../../src/images/icon_personal_06.png' id='mebtn1'></image>
+       <text id='metxt1' catchtap='myquest'>{{wdtw}}</text>
+    </view>
+    <view class='answer'>
+       <image src='../../src/images/icon_personal_07.png' id='mebtn2'></image>
+       <text id='metxt2' catchtap='myanswer'>我的回答</text> 
+    </view>
+    <view class='chat'>
+       <image src='../../src/images/icon_communication.png' id='mebtn3'></image>
+       <text id='metxt3' catchtap='mydiscuss'>我的交流</text>
+    </view>
+</view>
+<!--我的收藏，我的关注，我的供求-->
+<view class='my'>
+    <view class='collect'>
+       <image src='../../src/images/icon_personal_01.png' id='mybtn1'></image>
+       <text id='mytxt1' catchtap='mycollect'>我的收藏</text>
+    </view>
+    <view class='attent'>
+       <image src='../../src/images/icon_guanzhu.png' id='mybtn2'></image>
+       <text id='mytxt2' catchtap='myattend'>我的关注</text> 
+    </view>
+    <view class='gongqiu'>
+       <image src='../../src/images/icon_gongqiu.png' id='mybtn3'></image>
+       <text id='mytxt3' catchtap='gongqiu'>我的供求</text>
+    </view>
+</view>
+<!--我的培训班，我的二维码-->
+<view class='mine'>
+    <view class='peixun'>
+       <image src='../../src/images/icon_teacher.png' id='minebtn1'></image>
+       <text id='minetxt1' catchtap='peixun'>我的培训班</text>
+    </view>
+    <view class='ewm'>
+       <image src='../../src/images/icon_personal_10.png' id='minebtn2'></image>
+       <text id='minetxt2' catchtap='erweima'>我的二维码</text> 
+    </view>
+</view>
+<!--系统设置，意见反馈,分享农技耘-->
+<view class='last'>
+    <view class='install'>
+       <image src='../../src/images/icon_personal_05.png' id='lastbtn1'></image>
+       <text id='lasttxt1' catchtap='install'>系统设置</text>
+    </view>
+    <view class='advice'>
+       <image src='../../src/images/ic_feedback.png'id='lastbtn2'></image>
+       <text id='lasttxt2'>意见反馈</text> 
+    </view>
+    <view class='share'>
+       <image src='../../src/images/ic_share.png' id='lastbtn3'></image>
+       <text id='lasttxt3'>分享农技耘</text>
+    </view>
+</view>
+
+</view>

@@ -1,0 +1,28 @@
+.nav{
+  width:100%;
+  height:100rpx;
+  display:flex;
+  flex-direction:row;
+}
+.default{
+  line-height:100rpx;
+  text-align:center;
+  flex:1;
+  color:#AAAAAA;
+  font-size:38rpx;
+}
+.green{
+  line-height:100rpx;
+  text-align:center;
+  color:green;
+  flex:1;
+  border-bottom: green 1rpx solid;
+  font-weight:bold;
+  font-size:38rpx;
+}
+.show{
+  display:block;
+}
+.hidden{
+  display:none;
+}

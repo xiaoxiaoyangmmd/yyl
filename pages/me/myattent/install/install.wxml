@@ -1,0 +1,24 @@
+<view class='setup'>
+   <view class='notice'>
+        <text class='txt'>接收新消息通知</text>
+        <switch checked bindchange="switchChange" id='off'/>
+   </view>
+   <view class='custom'>
+        <text class='txt'>客服热线</text> 
+        <text class='num'>025-86261287</text>
+   </view>
+   <view class='custom'>
+        <text class='txt'>清理缓存</text> 
+        <text class='num'>4.14MB</text>
+   </view>
+   <view class='custom'>
+        <text class='txt'>版本更新</text> 
+        <text class='num'>V1.5.0</text>
+   </view>
+   <view class='custom'>
+        <text class='txt'>关于</text> 
+   </view>
+</view>
+<view class='btn'>
+  <button id='btn1'>退出</button>
+</view>

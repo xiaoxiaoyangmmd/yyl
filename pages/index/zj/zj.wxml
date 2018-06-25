@@ -1,0 +1,122 @@
+<view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj1.jpg'></image>
+                    <view class='bt' catchtap='shuidao'>{{shuidao}}</view>
+                   
+                </view>
+
+                <view style=' background:white;border-left: 1px solid grey;border-right: 1px solid grey;'>
+                   <image src='../../../src/images/nykj2.jpg'></image>
+                   <view class='bt' catchtap='xiaomai'>{{xiaomai}}</view>
+                                  
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj3.jpg'></image>
+                   <view class='bt' catchtap='tltj'>{{tltj}}</view>
+                   
+                </view>
+        </view>
+        <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj4.jpg'></image>
+                   <view class='bt' catchtap='shucai'>{{shucai}}</view>
+                   
+                </view>
+                <view style=' background:white;border-left: 1px solid grey;border-right: 1px solid grey;'>
+                   <image src='../../../src/images/nykj5.jpg'></image>
+                   <view class='bt' catchtap='guoshu'>{{guoshu}}</view>
+                                 
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj6.jpg'></image>
+                   <view class='bt' catchtap='zhibao'>{{zhibao}}</view>
+                   
+                </view>
+        </view>
+         <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj7.jpg'></image>
+                   <view class='bt' catchtap='shengzhu'>{{shengzhu}}</view>
+                   
+                </view>
+                <view style=' background:white;border-left: 1px solid grey;border-right: 1px solid grey;'>
+                   <image src='../../../src/images/nykj8.jpg'></image>
+                   <view class='bt' catchtap='jiaqin'>{{jiaqin}}</view>
+                                  
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj9.jpg'></image>
+                   <view class='bt' catchtap='jiachu'>{{jiachu}}</view>
+                   
+                </view>
+        </view>
+        
+        <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj14.jpg'></image>
+                   <view class='bt' catchtap='huamu'>{{huamu}}</view>
+                   
+                </view>
+                <view style=' background:white;border-left: 1px solid grey;border-right: 1px solid grey;'>
+                   <image src='../../../src/images/nykj15.jpg'></image>
+                   <view class='bt' catchtap='cansang'>{{cansang}}</view>
+                                 
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj13.jpg'></image>
+                   <view class='bt' catchtap='chaye'>{{chaye}}</view>
+                  
+                </view>
+        </view>
+
+        <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj12.jpg'></image>
+                   <view class='bt' catchtap='shuichan'>{{shuichan}}</view>
+                   
+                </view>
+                <view style=' background:white;border-left: 1px solid grey;border-right: 1px solid grey;'>
+                   <image src='../../../src/images/nykj21.jpg'></image>
+                   <view class='bt' catchtap='tufei'>{{tufei}}</view>
+                                 
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj10.jpg'></image>
+                   <view class='bt' catchtap='nyhj'>{{nyhj}}</view>
+                   
+                </view>
+        </view>
+        <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj11.jpg'></image>
+                   <view class='bt' catchtap='nongji'>{{nongji}}</view>
+                   
+                </view>
+                <view style=' background:white;border-left: 1px solid grey;border-right: 1px solid grey;'>
+                   <image src='../../../src/images/nykj16.jpg'></image>
+                   <view class='bt' catchtap='ncpjg'>{{ncpjg}}</view>
+                               
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj20.jpg'></image>
+                   <view class='bt' catchtap='nongjing'>{{nongjing}}</view>
+                   
+                </view>
+        </view>
+        <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj18.jpg'></image>
+                   <view class='bt' catchtap='nyxxh'>{{nyxxh}}</view>
+                   
+                </view>
+                <view style=' background:white;border-left: 1px solid grey;border-right: 1px solid grey;'>
+                   <image src='../../../src/images/nykj17.jpg'></image>
+                   <view class='bt' catchtap='ncpzl'>{{ncpzl}}</view>
+                                  
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj19.jpg'></image>
+                   <view class='bt' catchtap='nybx'>{{nybx}}</view>
+                   
+                </view>
+        </view>

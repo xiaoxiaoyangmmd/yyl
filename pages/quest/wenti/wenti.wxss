@@ -1,0 +1,36 @@
+.cs{
+  margin-top: 20rpx;
+}
+.choose{
+  margin-left: 15rpx;
+}
+.qqq{
+  margin-left: 512rpx;
+}
+.wb{
+  margin-top: 15rpx;
+}
+.wb input{
+  height: 300rpx;
+}
+.ad{
+  margin-top: 10rpx;
+}
+.address{
+  color: grey;
+}
+.sc{
+  margin-top: 15rpx;
+  margin-left: 25rpx;
+}
+.sc image{
+  width: 120rpx;
+  height: 120rpx;
+}
+.quest_btn{
+  background-color:#00EC00; 
+  width: 90%;
+  margin-top: 20rpx;
+  text-align: center;
+  color: white;
+}

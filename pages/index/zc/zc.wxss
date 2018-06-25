@@ -1,0 +1,24 @@
+.it{
+  display: flex;
+  flex-direction: row;
+}
+.it image{
+  width: 270rpx;
+  height: 165rpx;
+  margin-left:30rpx;
+  margin-top: 4rpx;
+}
+.bt{
+  border-bottom: 1px solid grey;
+}
+.time{
+  font-size:23rpx;
+  color: grey;
+  margin-left: 255rpx;
+  margin-top: 1rpx;
+}
+.nub{
+  font-size: 23rpx;
+  color: grey;
+  margin-left: 240rpx;
+}

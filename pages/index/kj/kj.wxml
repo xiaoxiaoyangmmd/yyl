@@ -1,0 +1,105 @@
+        <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj1.jpg'></image>
+                    <view class='bt' catchtap='shuidao'>{{shuidao}}</view>
+                   <text class='bt'>水稻</text>
+                </view>
+
+                <view style=' background:white;border-left: 1px solid lightgray;border-right: 1px solid lightgray;'>
+                   <image src='../../../src/images/nykj2.jpg'></image>
+                   <view class='bt' catchtap='xiaomai'>{{xiaomai}}</view>
+                   <text class='bt'>小麦</text>                
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj3.jpg'></image>
+                   <view class='bt' catchtap='tltj'>{{tltj}}</view>
+                   <text class='bt'>特粮特经</text>
+                </view>
+        </view>
+
+                <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj4.jpg'></image>
+                   <view class='bt' catchtap='shucai'>{{shucai}}</view>
+                   <text class='bt'>蔬菜</text>
+                </view>
+                <view style=' background:white;border-left: 1px solid lightgray;border-right: 1px solid lightgray;'>
+                   <image src='../../../src/images/nykj5.jpg'></image>
+                   <view class='bt' catchtap='guoshu'>{{guoshu}}</view>
+                   <text class='bt'>果树</text>                
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj6.jpg'></image>
+                   <view class='bt' catchtap='zhibao'>{{zhibao}}</view>
+                   <text class='bt'>植保</text>
+                </view>
+        </view>
+
+                <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj7.jpg'></image>
+                   <view class='bt' catchtap='shengzhu'>{{shengzhu}}</view>
+                   <text class='bt'>生猪</text>
+                </view>
+                <view style=' background:white;border-left: 1px solid lightgray;border-right: 1px solid lightgray;'>
+                   <image src='../../../src/images/nykj8.jpg'></image>
+                   <view class='bt' catchtap='jiaqin'>{{jiaqin}}</view>
+                   <text class='bt'>家禽</text>                
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj9.jpg'></image>
+                   <view class='bt' catchtap='jiachu'>{{jiachu}}</view>
+                   <text class='bt'>家畜</text>
+                </view>
+        </view>
+
+                <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj10.jpg'></image>
+                   <view class='bt' catchtap='nyhj'>{{nyhj}}</view>
+                   <text class='bt'>环境能源</text>
+                </view>
+                <view style=' background:white;border-left: 1px solid lightgray;border-right: 1px solid lightgray;'>
+                   <image src='../../../src/images/nykj11.jpg'></image>
+                   <view class='bt' catchtap='njzb'>{{njzb}}</view>
+                   <text class='bt'>农机装备</text>                
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj12.jpg'></image>
+                   <view class='bt' catchtap='shuichan'>{{shuichan}}</view>
+                   <text class='bt'>水产</text>
+                </view>
+        </view>
+
+                <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj13.jpg'></image>
+                   <view class='bt' catchtap='chaye'>{{chaye}}</view>
+                   <text class='bt'>茶叶</text>
+                </view>
+                <view style=' background:white;border-left: 1px solid lightgray;border-right: 1px solid lightgray;'>
+                   <image src='../../../src/images/nykj14.jpg'></image>
+                   <view class='bt' catchtap='huamu'>{{huamu}}</view>
+                   <text class='bt'>花木</text>                
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj15.jpg'></image>
+                   <view class='bt' catchtap='cansang'>{{cansang}}</view>
+                   <text class='bt'>蚕桑</text>
+                </view>
+        </view>
+
+                <view class="yy">
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj16.jpg'></image>
+                   <view class='bt' catchtap='jgzb'>{{jgzb}}</view>
+                </view>
+                <view style=' background:white;border-left: 1px solid lightgray;border-right: 1px solid lightgray;'>
+                   <image src='../../../src/images/nykj17.jpg'></image>
+                  <view class='bt' catchtap='ncpzl'>{{ncpzl}}</view>      
+                </view>
+                <view style=' background:white'>
+                   <image src='../../../src/images/nykj18.jpg'></image>
+                   <view class='bt' catchtap='nyxxh'>{{nyxxh}}</view>
+                </view>
+        </view>

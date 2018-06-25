@@ -1,0 +1,3 @@
+<view class='welcome'>
+<image src='../../src/images/welcome.png'></image>
+</view>

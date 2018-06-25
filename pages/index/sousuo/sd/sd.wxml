@@ -1,0 +1,74 @@
+<view style='background-color:#F0F0F0; width: 100%;height: 100%;position: absolute;'> 
+
+    <view class='head'>
+       <view style='display:flex;background:white;margin-left:20rpx;border-radius:10rpx;'> 
+       <image src='../../../../src/images/icon_search_black.png' catchtap='sousuo'></image>
+       <input type='text' class="sousuo" placeholder='请输入搜索内容'></input>
+    </view>
+    </view>
+
+<view class="body">
+  <view class="nav">
+    <view class="{{selected?'green':'default'}}" bindtap="selected">咨询</view>
+    <view class="{{selected1?'green':'default'}}" bindtap="selected1">交流</view>
+    <view class="{{selected2?'green':'default'}}" bindtap="selected2">问答</view>
+    <view class="{{selected3?'green':'default'}}" bindtap="selected3">专家</view>
+  </view>
+  <view class="{{selected?'show':'hidden'}}">
+      <view class='headline'>
+      <image src='/src/images/88888.jpg'></image>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-28</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text>全国一年审定2275个品种！全面水稻玉米排行榜</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="{{selected1?'show':'hidden'}}">
+  <view class='dis_pic'>
+<image src='/src/images/11111.jpg'></image>
+<text class='dis_name'>仔仔</text>
+<text class='dis_address'>江苏 南通 启东</text>
+</view>
+<view class='dis_tx'>
+<text>>全国一年审定2275个品种！水稻玉米排行榜</text>
+<image src='/src/images/22222.jpg'></image>
+<image src='/src/images/33333.jpg'></image>
+</view>
+</view>
+<view class='dis_dc'>
+<text></text>
+  </view>
+  <view class="{{selected2?'show':'hidden'}}">
+
+<view class='quest_zt'>
+<view class='quest_pic'>
+<image src='../../src/images/11111.jpg'></image>
+<text class='quest_name'>仔仔</text>
+<text class='quest_address'>江苏 南通 启东</text>
+</view>
+<view>
+<text class='quest_qt'>>全国一年审定2275个品种！全面整理水稻玉米排行榜</text>
+</view>
+<view style='border-bottom: 1px solid lightgray'>
+<view class='quest_tp'>
+<image src='/src/images/11111.jpg'></image>
+<image src='/src/images/22222.jpg'></image>
+<image src='/src/images/33333.jpg'></image>
+</view>
+</view>
+<view>
+<text class='quest_time'>2018-05-27</text>
+<text class='quest_as'>已回答:100</text>
+</view>
+</view>
+  </view>
+
+
+  <view class="{{selected3?'show':'hidden'}}">视频的内容</view>
+</view>
+</view>

@@ -1,0 +1,73 @@
+<view style='background:white'>
+
+<view style='background: white'>
+  <view>
+  <button form-type='quest' class='quest_btn' bindtap='quest'>？快速提问</button>
+   </view>
+</view>
+
+<view class='quest_zt'>
+<view class='quest_pic'>
+<image src='../../src/images/1111.jpg'></image>
+<text class='quest_name'>仔仔</text>
+<text class='quest_address'>江苏 南通 启东</text>
+</view>
+<view>
+<text class='quest_qt'>启东市召开全国人大会议</text>
+</view>
+<view style='border-bottom: 1px solid lightgray'>
+<view class='quest_tp'>
+<image src='../../src/images/66666.jpg'></image>
+<image src='../../src/images/77777.jpg'></image>
+<image src='../../src/images/88888.jpg'></image>
+</view>
+</view>
+<view>
+<text class='quest_time'>2018-05-11</text>
+<text class='quest_as'>已回答:8888</text>
+</view>
+</view>
+
+
+<view class='quest_zt'>
+<view class='quest_pic'>
+<image src='../../src/images/1111.jpg'></image>
+<text class='quest_name'>仔仔</text>
+<text class='quest_address'>江苏 南通 启东</text>
+</view>
+<view>
+<text class='quest_qt'>江苏南通起订召开全国人大会议？</text>
+</view>
+<view style='border-bottom: 1px solid lightgray'>
+<view class='quest_tp'>
+<image src='../../src/images/88888.jpg'></image>
+<image src='../../src/images/99999.jpg'></image>
+</view>
+</view>
+<view>
+<text class='quest_time'>2018-05-011</text>
+<text class='quest_as'>已回答:8888</text>
+</view>
+</view>
+
+<view class='quest_zt'>
+<view class='quest_pic'>
+<image src='../../src/images/1111.jpg'></image>
+<text class='quest_name'>仔仔</text>
+<text class='quest_address'>江苏 南通 启东</text>
+</view>
+<view>
+<text class='quest_qt'>启东召开全国人大会议？</text>
+</view>
+<view style='border-bottom: 1px solid lightgray'>
+<view class='quest_tp'>
+<image src='../../src/images/11111.jpg'></image>
+<image src='../../src/images/22222.jpg'></image>
+</view>
+</view>
+<view>
+<text class='quest_time'>2018-05-11</text>
+<text class='quest_as'>已回答:333</text>
+</view>
+</view>
+</view>

@@ -1,0 +1,43 @@
+<view class="userRegister">
+    <view class="head">
+         <image src='/src/images/icon_default_head.png'></image>
+    </view>
+    <view class="userInfo">
+       <view>
+          <text decode="{{true}}">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</text>
+          <input type='text' bindinput='input_nickname' placeholder='姓名'></input>
+       </view>
+
+        <view>
+        <text decode="{{true}}">手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机</text>
+        <input type='text' bindinput='phone' placeholder='请输入手机号'></input>
+       </view>
+
+        <view>
+       <text decode="{{true}}">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</text>
+          <input type='text' bindinput='input_password1' placeholder='密码'></input>
+       </view>
+
+        <view>
+       <text>确认密码</text>
+          <input type='text' bindinput='input_password2' placeholder='确认密码'></input>
+       </view>
+
+        <view style='margin-top:20rpx;justify-content: space-between;' bindtap='xzlx'>
+             <text>人员类型</text>
+             <view hidden='{{xzlxview1}}' style='margin-right:30rpx;color:#888;'>选择类型></view>
+             <view hidden='{{xzlxview2}}' style='margin-right:30rpx;color:#888;'>{{rylx}}></view>
+       </view>
+
+        <view style="justify-content: space-between;" bindtap='xzdq'>
+       <text>选择地区</text>
+        <view hidden='{{xzdqview1}}' style='margin-right:30rpx;color:#888;'>点击选择地址></view>
+        <view hidden='{{xzdqview2}}' style='margin-right:30rpx;color:#888;'>{{shi}}/{{qu}}</view>
+       </view>
+    <view>
+    <button class="register" bindtap='register'>
+     注册
+    </button>
+    </view>
+ </view> 
+ </view>

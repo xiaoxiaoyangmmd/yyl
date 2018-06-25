@@ -1,0 +1,16 @@
+<view class="main">
+  <view style='display:flex;flex-direction:row;border-bottom:solid 1px #c8c8c8;border-top:solid 1px #c8c8c8;padding:20rpx 0 20rpx 0'>
+    <input type='text' class="input" bindinput="iphone" style='background:none; margin-top:10rpx;margin-left:20rpx; font-size:35rpx;width:515rpx' placeholder='请输入手机号'>"
+    </input>
+      <button formType="register" class='btn_get' bindtap='huoqu'>获取验证码</button>
+  </view>
+
+  <view style='border-bottom:solid 1px #c8c8c8;padding:20rpx 0 20rpx 0'>
+  <input type='text' class="input" bindinput="yanzheng" style='background:none; margin-top:10rpx;margin-left:20rpx;font-size:35rpx; width:700rpx' placeholder='请输入验证码'>
+  </input>
+  </view>
+</view>
+
+<view>
+  <button formType="login" class="btn_next" bindtap='next'>下一步</button>
+</view>

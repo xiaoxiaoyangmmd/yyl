@@ -1,0 +1,21 @@
+<view style='display:flex;background:#00CD00;'>
+<button form-type='dis' class='dis_btn' bindtap='fabu'>发布</button>
+</view>
+<view>
+<view class='dis_pic'>
+<image src='../../src/images/1111.jpg'></image>
+<text class='dis_name'>仔仔</text>
+<text class='dis_address'>江苏南通 启东 </text>
+</view>
+<view class='dis_tx'>
+<text>启东市召开全国人大会议</text>
+<image src='../../src/images/aaa.jpg'></image>
+<image src='../../src/images/bbb.jpg'></image>
+<image src='../../src/images/ccc.jpg'></image>
+<text class='dis_dz'>南通市召开全国人大会议</text>
+</view>
+</view>
+<view class='dis_dc'>
+<text>2018-05-11</text>
+<text></text>
+</view>

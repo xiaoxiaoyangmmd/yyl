@@ -1,0 +1,44 @@
+<!--基本信息包含：作物品种库，植保库，畜禽品种库，主推技术库，产品技术体系专家-->
+<view> 
+</view>
+<view style='width: 100%;height: 100%;position: fixed;'>
+  <view class='ka'>
+    <view class='icon-left'>
+      <navigator class='icon' url='zuowu/zuowu' >
+        <image class='tp' src='../../src/images/icon_zuwu.png'></image>
+        <text class='text'>作物品种库</text>
+      </navigator>
+    </view>
+    <view  bindtap='show' class='icon-right'>
+    <navigator class='zhibao' url='zhibao/zhibao'></navigator>
+      <image class='tp' src='../../src/images/icon_zhibao.png'></image>
+      <text class='text'>植保库</text>
+    </view>
+  </view>
+
+  <view class='kb'> 
+    <view class='icon-left'>
+      <navigator class='icon' url='chuqin/chuqin'>
+        <image class='tp' src='../../src/images/icon_chuqin.png'></image>
+        <text class='text'>畜禽品种库</text>
+      </navigator>
+    </view>
+    <view class='icon-right'>
+      <navigator class='icon' url='zhutui/zhutui'>
+        <image class='tp' src='../../src/images/icon_zhutui.png'></image>
+        <text class=' text '>主推技术库</text>
+      </navigator>
+    </view>
+  </view>
+     
+  <view class='kc' >
+    <view class='icon-left1'>
+      <navigator class='icon ' url='zhuanjia/zhuanjia'>
+        <image class='tp ' src='../../src/images/icon_zjtx.png '></image> 
+        <text class='text '>产业技术体系专家</text>
+      </navigator>
+    </view>
+    <view style='width:50%' >  
+    </view>
+  </view>
+</view>

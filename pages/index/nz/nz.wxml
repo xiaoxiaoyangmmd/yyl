@@ -1,0 +1,93 @@
+<view class="body">
+  <view class="nav">
+    <view class="{{selected?'green':'default'}}" bindtap="selected">动态</view>
+    <view class="{{selected1?'green':'default'}}" bindtap="selected1">专题</view>
+    <view class="{{selected2?'green':'default'}}" bindtap="selected2">农药</view>
+    <view class="{{selected3?'green':'default'}}" bindtap="selected3">肥料</view>
+    <view class="{{selected4?'green':'default'}}" bindtap="selected3">种子</view>
+  </view>
+  <view class="{{selected?'show':'hidden'}}">
+  <view class='headline'>
+      <image src='../../../src/images/22222.jpg'></image>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-11</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text>[关注] 南通召开全国人大</text>
+        </view>
+      </view>
+    </view>
+    
+   <view class='headline'>
+      <image src='../../../src/images/33333.jpg'></image>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-16</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text>[关注] 全国人大在启东召开</text>
+        </view>
+      </view>
+    </view>
+
+      <view class='headline'>
+      <image src='../../../src/images/44444.jpg'></image>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-16</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text>[关注] 南通召开全国人大</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="{{selected1?'show':'hidden'}}">
+    <view class='headline'>
+      <image src='../../../src/images/66666.png'></image>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-09</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text>南通召开全国人大</text>
+        </view>
+      </view>
+    </view>
+      <view class='headline'>
+      <image src='../../../src/images/88888.jpg'></image>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-09</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text>[关注]启东召开全国人大</text>
+        </view>
+      </view>
+    </view>
+      <view class='headline'>
+      <image src='../../../src/images/11111.jpg'></image>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-09</text>
+          <text>阅读数量：1755</text>
+        </view>
+        <view class='headline-title'>
+          <text>[关注] 启东召开全国人大</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <view class="{{selected2?'show':'hidden'}}">农药的内容</view>
+  <view class="{{selected3?'show':'hidden'}}">肥料的内容</view>
+  <view class="{{selected4?'show':'hidden'}}">种子的内容</view>
+</view>

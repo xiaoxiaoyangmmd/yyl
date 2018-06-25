@@ -1,0 +1,6 @@
+<!--pages/kb/pages/chuqin/any/any.wxml-->
+<view class='no'>
+<image class='image' src='../../../../src/image/no.jpg'>
+</image>
+<text class='txt'>暂无数据...</text>
+</view>

@@ -1,0 +1,53 @@
+.head{
+  background: #00CD00;
+  display: flex;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+.sousuo{
+  background: white;
+  margin-left: 10rpx;
+  width: 75%;
+  flex-direction: row;
+}
+.search{
+  width: 350px;
+  font-size: 16px;
+}
+.rs{
+  text-indent: 1.2em;
+  font-size: 16px;
+  color: green;
+  margin-top: 10rpx;
+}
+.head image{
+  width: 40rpx;
+  height: 40rpx;
+  flex-direction: row;
+  margin-left:12rpx;
+  margin-top: 4rpx;
+}
+.emmm{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  font-size: 30rpx;
+  
+ }
+ .sd{
+   margin-left: 30rpx;
+  padding: 5rpx;
+}
+ .xm{
+   margin-left: 30rpx;
+ }
+ .zj{
+   margin-left: 30rpx;
+ }
+ .pt{
+   margin-left: 30rpx;
+ }
+ .yy{
+   margin-left: 20rpx;
+ }

@@ -1,0 +1,176 @@
+.head{
+  background: #00CD00;
+  display: flex;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+.sousuo{
+  background: white;
+  margin-left: 10rpx;
+  width: 250px;
+  flex-direction: row;
+  font-size: 16px;
+}
+
+.head image{
+  width: 40rpx;
+  height: 40rpx;
+  flex-direction: row;
+  margin-left:48rpx;
+  margin-top: 4rpx;
+}
+.gl{
+  font-size: 30rpx;
+color: white;
+ background: #00CD00;
+}
+.nl{
+  margin-left: 50rpx;
+}
+
+.adress{
+  margin-left: 60rpx;
+}
+.ssd{
+  margin-left: 85rpx;
+  font-weight: bolder;
+}
+.weather{
+  margin-left: 115rpx;
+}
+
+.Sudoku>view{
+  background: white;
+  width: 100%;
+  height: 160rpx;
+  border-bottom: 1px solid #eee; 
+  display: flex;
+  flex-direction: row;
+  color: #000000;
+}
+.Sudoku>view>view{
+  background: white;
+  width: 250rpx;
+  height: 100%;
+  border-left: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Sudoku image{
+  width: 82rpx;
+  height: 82rpx;
+  background: red
+}
+.tt{
+  background: white;
+  width: 100%;
+  height: 877rpx;
+}
+.tt-head{
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+.tt-head image{
+  width: 29rpx;
+  height: 33rpx;
+  margin-left: 40rpx;
+}
+.headline{
+  background: white;
+  width: 100%;
+  height: 200rpx;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.headline image{
+  width: 260rpx;
+  height: 160rpx;
+
+}
+.headline-list{
+  width: 430rpx;
+  height: 160rpx;
+  margin-left: 5rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.headline-title{
+  color: #000000;
+  flex: 1;
+  text-align: center;
+}
+.headline-time{
+  width: 100%;
+  height: 40rpx;
+  color: #BFBFBF;
+  font-size: 22rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dt{
+  background: white;
+  width: 100%;
+  height: 160rpx;
+}
+
+.sp{
+  background: white;
+  width: 100%;
+  height: 440rpx;
+}
+
+.video{
+  background: white;
+  width: 100%;
+  height: 360rpx;
+}
+.video>view{
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.video view image{
+  width: 345rpx;
+  height: 240rpx;
+ 
+}
+.video-title{
+  text-align: center;
+  max-width: 345rpx;
+  color: #BFBFBF;
+}
+.dt-con{
+  width: 100%;
+  height: 40rpx;
+  display: flex;
+  align-items: center;
+}
+.dtlb{
+  margin-left: 40rpx;
+  width: 90%;
+  height: 90%;
+  margin-top: 30rpx;
+  color: #BFBFBF;
+}
+.fg{
+  height: 20rpx;
+  background: #EEEEEE;
+}
+.slide-image{
+  height: 352rpx;
+  width: 745rpx;
+}

@@ -1,0 +1,4 @@
+<view  class='rylx' wx:for="{{identity}}" data-index="{{index}}" bindtap='getrylx' id='{{item.id}}'>
+   <text>{{item.name}}</text>
+</view>
+

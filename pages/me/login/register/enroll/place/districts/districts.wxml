@@ -1,0 +1,3 @@
+<view  class='qu' wx:for="{{districts}}" data-index="{{index}}" bindtap='getdistricts'>
+   <text>{{item.district_name}}</text>
+</view>

@@ -1,0 +1,215 @@
+<!-- 顶部搜索区域 -->
+    <view class='head'>
+       <view style='display:flex;background:white;margin-left:20rpx;border-radius:10rpx;'> 
+       <image src='../../src/images/icon_search_black.png' catchtap='sousuo'></image>
+       <input type='text' class="sousuo" placeholder='请输入您要搜索的'></input>
+       </view> 
+         <image src='../../src/images/btn_notice.png'></image>
+         <image src='../../src/images/btn_speak_normal.png'></image>
+    </view>
+    <!-- //轮播区域 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+    <!--//功能区域 -->
+    <view class='gl'>
+        <view catchtap='weather'>
+        <text>2018-05-11</text>
+        <text class='nl'>[十七]</text>
+        <text class='adress'>南京</text>
+        <text class='ssd'> 28°C </text>
+        <text class='weather'>暴雨</text>
+        </view>
+  <!-- 九宫格组件 -->
+  <view class='Sudoku'>
+    <view class='top'>
+      <view>
+        <image src='../../src/images/sy1.jpg'></image>
+        <view>
+          <text catchtap='ns'>应时农事</text>
+        </view>
+      </view>
+      <view>
+        <image src='../../src/images/sy2.jpg'></image>
+        <view>
+          <text catchtap='kj'>农业科技</text>
+        </view>
+      </view>
+      <view>
+        <image src='../../src/images/sy3.jpg'></image>
+        <view>
+          <text catchtap='zc'>农业政策</text>
+        </view>
+      </view>
+    </view>
+    <view class='center'>
+      <view>
+        <image src='../../src/images/sy4.jpg'></image>
+        <view>
+          <text catchtap='zx'>科技专项</text>
+        </view>
+
+      </view>
+      <view>
+        <image src='../../src/images/sy5.jpg'></image>
+        <view>
+          <text catchtap='hq'>市场行情</text>
+        </view>
+      </view>
+      <view>
+
+        <image src='../../src/images/sy6.jpg'></image>
+        <view>
+          <text catchtap='xx'>供求信息</text>
+        </view>
+      </view>
+    </view>
+    <view class='bottom'>
+      <view>
+        <image src='../../src/images/sy7.jpg'></image>
+        <view>
+          <text catchtap='zj'>农业专家</text>
+        </view>
+      </view>
+      <view>
+        <image src='../../src/images/sy8.jpg'></image>
+        <view>
+          <text catchtap='qx'>品牌农资</text>
+        </view>
+      </view>
+      <view>
+        <image src='../../src/images/sy9.jpg'></image>
+        <view>
+          <text catchtap='more'>更多</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='fg'></view>
+  <!-- 头条 -->
+  <view class='tt'>
+    <view class="tt-head">
+      <image src='../../src/images/icon_file.png'></image>
+      <view style=' margin-left: 18rpx;'>
+        <text style='color:#EE8D5D'>头条</text>
+      </view>
+      <view style=' margin-left: 470rpx;'>
+        <text>更多>></text>
+      </view>
+    </view>
+
+    <!-- 循环的头条 -->
+    <view class='headline'>
+      <image src='../../src/images/33333.jpg'></image>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-14</text>
+          <text>阅读数量：1</text>
+        </view>
+        <view class='headline-title'>
+          <text>[关注] 江苏甘蔗长势良好 又大又甜 市场反响良好</text>
+        </view>
+      </view>
+    </view>
+    <view class='headline'>
+      <image src='../../src/images/44444.jpg'></image>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-13</text>
+          <text>阅读数量：5</text>
+        </view>
+        <view class='headline-title'>
+          <text>[关注] 江苏甘蔗长势良好 又大又甜 市场反响良好</text>
+        </view>
+
+      </view>
+    </view>
+    <view class='headline'>
+      <image src='../../src/images/55555.jpg'></image>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-12</text>
+          <text>阅读数量：23455</text>
+        </view>
+        <view class='headline-title'>
+          <text>[关注] 江苏甘蔗长势良好 又大又甜 市场反响良好</text>
+        </view>
+
+      </view>
+    </view>
+    <view class='headline'>
+      <image src='../../src/images/66666.jpg'></image>
+      <view class='headline-list'>
+        <view class='headline-time'>
+          <text>2018-05-11</text>
+          <text>阅读数量：55</text>
+        </view>
+        <view class='headline-title'>
+          <text>[关注] 江苏甘蔗长势良好 又大又甜 市场反响良好</text>
+        </view>
+
+      </view>
+    </view>
+
+
+  </view>
+  <view class='fg'></view>
+  <!-- 动态 -->
+  <view class="dt">
+    <view class="tt-head">
+      <image src='../../src/images/222.png'></image>
+      <view style=' margin-left: 18rpx;'>
+        <text style='color:#5AD288'>动态</text>
+      </view>
+      <view style=' margin-left: 470rpx;'>
+        <text>更多>></text>
+      </view>
+    </view>
+    <view class='dt-con'>
+      <swiper class='dtlb' autoplay='true' vertical='true' interval="2000">
+        <block wx:for="{{textList}}">
+          <swiper-item>
+            <view>
+              <image style=' width: 16rpx;height: 16rpx;' src="../../src/images/icon_circle_green.png" />
+              <text style='margin-left:20rpx'>{{item}}</text>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+<view class='fg'></view>
+  <!-- 视频 -->
+  <view class='sp'>
+    <view class="tt-head">
+      <image src='../../src/images/icon_circle_green.png'></image>
+      <view style=' margin-left: 18rpx;'>
+        <text style='color:#2392D9'>视频</text>
+      </view>
+      <view style=' margin-left: 470rpx;'>
+        <text>更多>></text>
+      </view>
+    </view>
+
+    <view class='video'>
+      <view>
+        <image src='../../src/images/77777.jpg'></image>
+        <view class='video-title'>
+          <text>特色大豆新品种及绿色增产增效产业化技术</text>
+        </view>
+      </view>
+      <view>
+        <image src='../../src/images/88888.jpg'></image>
+        <view class='video-title'>
+          <text>特色大豆新品种及绿色增产增效产业化技术</text>
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+</view>

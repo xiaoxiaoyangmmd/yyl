@@ -1,0 +1,50 @@
+.userRegister {
+  width: 100%;
+  font-size: 28rpx;
+  color: #000;
+  height: 1210rpx;
+  background: #eee;
+}
+
+.head {
+  width: 100%;
+  height: 260rpx;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+}
+
+.head image {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+}
+
+.userInfo>view {
+  width: 100%;
+  height: 120rpx;
+  background: white;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.register {
+  width: 670rpx;
+  height: 100rpx;
+  background: #2dc667;
+  color: white;
+  margin-top: 40rpx;
+}
+.userInfo>view>text{
+  margin-left: 40rpx;
+}
+.userInfo>view input{
+  margin-left: 20rpx;
+  width: 515rpx;
+
+}

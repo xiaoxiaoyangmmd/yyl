@@ -1,0 +1,22 @@
+.yy{
+  display: flex;
+  flex-direction: row;
+  border-bottom:1px solid lightgray;
+}
+
+ .yy view{
+   width: 250rpx;
+   height: 185rpx;
+}
+ .yy view image{
+   width: 220rpx;
+   height: 100rpx;
+   margin-left: 18rpx;
+   margin-top: 20rpx;
+ }
+ .bt{
+   display:block;
+   margin-top:7rpx;
+   color:black;
+   margin-left:75rpx; 
+ }

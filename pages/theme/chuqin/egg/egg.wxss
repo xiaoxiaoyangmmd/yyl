@@ -1,0 +1,41 @@
+/* pages/kb/pages/chuqin/pages/egg/egg.wxss */
+
+.for-pig{
+  display: flex;
+  flex-direction: row;
+  padding:15rpx 10rpx 10rpx 10rpx ;
+  border-bottom: 1px solid gainsboro;
+}
+.name{
+  width: 500rpx;
+  height: 100%;
+  display: flex;
+  margin-left: 50rpx;
+  font-size: 30rpx;
+  flex-direction: column;
+}
+.tp{
+  width:550rpx;
+  height:150rpx;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  width:520rpx;
+  height:100rpx;
+  color: gray
+}
+.date{
+  font-size: 20rpx;
+  color: gary; 
+  display: flex;
+  flex-direction: row;
+  margin-left: 50rpx;
+  margin-top:100rpx
+}
+.read{
+  font-size: 20rpx;
+  display: flex;
+  flex-direction: row;
+  margin-left: 375rpx
+}

@@ -1,0 +1,63 @@
+<view style='background-color:gainsboro;  width: 100%;height: 100%;position: absolute;'> 
+ </view>
+ <view style='width: 100%;height: 100%;position: fixed;'>
+<view class='ka'>
+<view style='width:50% ;border-bottom: solid 1px gainsboro;'>
+  <navigator class='icon' url='pig/pig' >
+    <image class='tp' src='../../../src/images/pig.PNG'></image></navigator></view>
+
+<view style='width:50% ;border-bottom: solid 1px gainsboro;border-left: solid 1px gainsboro;'>
+ <navigator class='icon' url='ship/ship'>
+  <image class='tp' src='../../../src/images/ship.PNG'></image></navigator>
+  </view>
+  </view>
+
+
+<view class='ka'>
+<view style='width:50% ;border-bottom: solid 1px gainsboro;'>
+<navigator class='icon' url='egg/egg'>
+<image class='tp' src='../../../src/images/egg.PNG'></image>
+</navigator></view>
+
+ <view style='width:50% ;border-bottom: solid 1px gainsboro;border-left: solid 1px gainsboro;'>
+ <navigator class='icon' url='chicken/chicken'>
+<image class='tp' src='../../../src/images/chicken.PNG'></image>
+</navigator>
+</view>
+</view>
+
+<view class='ka'>
+<view style='width:50% ;border-bottom: solid 1px gainsboro;'>
+<navigator class='icon ' url='durk/durk'>
+<image class='tp' src='../../../src/images/durk.PNG'></image> 
+</navigator></view>
+
+<view style='width:50% ;border-bottom: solid 1px gainsboro;border-left: solid 1px gainsboro;'>
+<navigator class='icon ' url='goose/goose'>
+<image class='tp' src='../../../src/images/goose.PNG'></image> 
+</navigator></view>
+</view>
+
+<view class='ka'>
+<view style='width:50% ;border-bottom: solid 1px gainsboro;'>
+<navigator class='icon ' url='cow/cow'>
+<image class='tp' src='../../../src/images/cow.PNG'></image> 
+</navigator></view>
+<view style='width:50% ;border-bottom: solid 1px gainsboro;border-left: solid 1px gainsboro;'>
+<navigator class='icon ' url='bird/bird'>
+<image class='tp' src='../../../src/images/bird.PNG'></image> 
+</navigator></view>
+</view>
+
+<view class='ka'>
+<view view style='width:50% ;border-bottom: solid 1px gainsboro;'>
+<navigator class='icon ' url='rabbit/rabbit'>
+<image class='tp' src='../../../src/images/rabbit.PNG'></image> 
+</navigator></view>
+
+<view style='width:50% ;border-bottom: solid 1px gainsboro;border-left: solid 1px gainsboro;'>
+<navigator class='icon ' url='any/any'>
+<image class='tp' src='../../../src/images/any.PNG'></image> 
+</navigator></view>
+</view>
+</view>

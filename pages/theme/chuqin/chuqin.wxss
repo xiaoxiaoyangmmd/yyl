@@ -1,0 +1,13 @@
+.ka{
+flex-direction: row;
+display:flex;
+background:white;
+
+}
+.tp{ 
+  display: flex;
+  flex-direction: row;
+  height: 220rpx;
+  width: 380rpx;
+}
+/* pages/kb/pages/chuqin/chuqin.wxss */

@@ -1,0 +1,118 @@
+
+<view style='width: 100%;height: auto;'>
+  <view class='ka'>
+    <navigator class='icon' url='shuidao/shuidao'>
+      <view class='icon-left'>
+        <image class='tp' src='/src/images/1..PNG'></image>
+      </view>
+    </navigator>
+    <navigator class='icon' url='xiaomai/xiaomai'>
+      <view class='icon-right'>
+          <image class='tp' src='/src/images/2..PNG'></image>
+      </view>
+    </navigator>
+  </view>
+
+
+  <view class='ka'>
+    <navigator class='icon' url='teliang/teliang'>
+      <view class='icon-left'>
+        <image class='tp' src='/src/images/3..PNG'></image>
+      </view>
+    </navigator>
+    <navigator class='icon' url='vegetables/vegetables'>
+      <view class='icon-right'>
+          <image class='tp' src='/src/images/4..png'></image>
+      </view>
+    </navigator>
+  </view>
+
+  <view class='ka'>
+    <navigator class='icon ' url='xigua/xigua'>
+      <view class='icon-left'>
+         <image class='tp' src='/src/images/5..PNG'></image>
+      </view>
+    </navigator>
+    <navigator class='icon ' url='putao/putao'>
+      <view class='icon-right'>
+        <image class='tp' src='/src/images/6..PNG'></image>
+      </view>
+    </navigator>
+  </view>
+
+  <view class='ka'>
+    <navigator class='icon ' url='caomei/caomei'>
+      <view class='icon-left'>
+        <image class='tp' src='/src/images/7..PNG'></image>
+      </view>
+    </navigator>
+    <navigator class='icon ' url='flower/flower'>
+      <view class='icon-right'>
+        <image class='tp' src='/src/images/8..PNG'></image>
+      </view>
+    </navigator>
+  </view>
+
+  <view class='ka'>
+    <navigator class='icon ' url='tea/tea'>
+      <view class='icon-left'>
+        <image class='tp' src='/src/images/9..PNG'></image>
+      </view>
+    </navigator>
+    <navigator class='icon ' url='pigs/pigs'>
+      <view class='icon-right'>
+        <image class='tp' src='/src/images/10..PNG'></image>
+      </view>
+    </navigator>
+  </view>
+
+  <view class='ka'>
+    <navigator class='icon' url='yang/yang'>
+      <view class='icon-left'>
+        <image class='tp' src='/src/images/11..PNG'></image>
+      </view>
+    </navigator>
+    <navigator class='icon' url='rouji/rouji'>
+      <view class='icon-right'>
+          <image class='tp' src='/src/images/12..PNG'></image>
+      </view>
+    </navigator>
+  </view>
+
+  <view class='ka'>
+    <navigator class='icon' url='danji/danji'>
+      <view class='icon-left'>
+        <image class='tp' src='/src/images/13..PNG'></image>
+      </view>
+    </navigator>
+
+    <navigator class='icon' url='shuiqin/shuiqin'>
+      <view class='icon-right'>
+        <image class='tp' src='/src/images/14..PNG'></image>
+      </view>
+    </navigator>
+  </view>
+
+  <view class='ka'>
+    <navigator class='icon' url='pea/pea'>
+      <view class='icon-left'>
+        <image class='tp' src='/src/images/15..PNG'></image>
+      </view>
+    </navigator>
+    <navigator class='icon' url='tao/tao'>
+      <view class='icon-right'>
+        <image class='tp' src='/src/images/16..PNG'></image>
+      </view>
+    </navigator>
+  </view>
+
+  <view class='ka'>
+    <navigator class='icon' url='milk/milk'>
+      <view class='icon-left'>
+        <image class='tp' src='/src/images/17..PNG'></image>
+      </view>
+    </navigator>
+    <view style='width:50% ;border-left: solid 1px gainsboro;background-color:gainsboro'>
+    </view>
+  </view>
+</view>

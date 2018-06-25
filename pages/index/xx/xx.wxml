@@ -1,0 +1,10 @@
+<view class="body">
+  <view class="nav">
+    <view class="{{selected?'green':'default'}}" bindtap="selected">供应</view>
+    <view class="{{selected1?'green':'default'}}" bindtap="selected1">求购</view>
+
+  </view>
+  <view class="{{selected?'show':'hidden'}}">供求的内容</view>
+  <view class="{{selected1?'show':'hidden'}}">求购的内容</view>
+
+</view>
